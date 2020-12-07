@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+nav {
+    background-color: transparent;
+    display: inline-block;
+    height: 4rem;
+  }
+  
+  .nav-align {
+    margin-left: auto;
+    margin-right: 12rem;
+  }
+  
+  .gst {
+    margin-top: 1rem;
+    margin-left: 13rem;
+    color: rgb(44, 53, 77); 
+  }
+
+  ul li {
+    margin: 0.1rem;
+    padding: 2px;
+  }
+
+  nav h2{
+    font-weight: 700;
+    color: black;
+    font-size: 40px;
+  }
+
+  .gst:hover{
+    text-decoration: none;
+    color:rgb(255, 164, 0) ;
+  }
+  
+  ul li a:after, a.active:after {
+      content:'';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(255, 164, 0) ;
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.3s;
+  }
+  ul li a:hover:after{
+      transform-origin: center;
+                  transform: scaleX(1);
+                 
+             }
+  
+  
+  ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+
+  ul li a:hover{    
+    text-decoration: none;
+    color: rgb(255,164, 0);
+  }
+  
+  #bg{
+    background-image: url(./backimg.jpg);
+    height: 790px;
+    overflow: hidden;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    padding-top: 0%;
+    display: block;
+    margin: auto;
+    color: rgb(44, 53, 77);
+    text-align: center;
+    padding-top: 16%;
+}
+
+.about{
+    font-family: 'Lexend Deca';
+    
+}
+.res{
+  font-family: 'Lexend Deca';
+  
+}
+.sdg{
+    font-family: 'Lexend Deca';
+    
+}
+
+#outer {
+    float: center;
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  #left-button {
+    float: right;
+    width: 30px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #right-button {
+    float: left;
+    width: 30px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+  }
+  
+  #inner:first-child {
+    margin-left: 20px;
+  }
+  
+  label {
+    margin-left: 10px;
+  }
+  
+  .hide {
+    display: none;
+  }
+ 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:rgb(44, 53, 77) ;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+  }
+
+  #myBtn:hover {
+    background-color: rgb(78, 91, 124);
+  }
+
+  #loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: visible;
+    background: rgb(24, 24, 31) url('https://i.pinimg.com/originals/f9/9f/c8/f99fc83c656da7ec8db2f6cbc88c6fa6.gif') no-repeat center center ;
+    
+    
+    
+  }
