@@ -175,8 +175,34 @@ nav {
     height: 100%;
     z-index: 1;
     overflow: visible;
-    background: rgb(24, 24, 31) url('https://i.pinimg.com/originals/f9/9f/c8/f99fc83c656da7ec8db2f6cbc88c6fa6.gif') no-repeat center center ;
+    background: white url('https://www.samsung.com/us/sas/Images/loading.gif') no-repeat center center ;
     
     
     
   }
+
+  footer {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: 18px;
+    bottom: 0rem;
+    position: relative;
+    
+  }
+  #photos{
+    background-color: black;
+    width: 185px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px;
+    transition: transform .2s;
+    
+  }
+  #photos:hover{
+    
+    transform: scale(1.05);
+     
+ }
+ 
