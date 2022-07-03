@@ -5,7 +5,7 @@ html {
 nav {
     background-color: transparent;
     display: inline-block;
-    height: 4rem;
+    height: auto;
   }
   
   .nav-align {
@@ -15,7 +15,7 @@ nav {
   
   .gst {
     margin-top: 1rem;
-    margin-left: 13rem;
+    justify-content: center;
     color: rgb(44, 53, 77); 
   }
 
@@ -28,6 +28,7 @@ nav {
     font-weight: 700;
     color: black;
     font-size: 40px;
+    justify-content: center;
   }
 
   .gst:hover{
@@ -205,3 +206,4 @@ nav {
     transform: scale(1.05);
      
  }
+ 
